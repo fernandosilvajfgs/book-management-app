@@ -1,6 +1,6 @@
 # BookNest
 
-A web application for managing and cataloging book records, designed as a tech challenge project with essential CRUD operations and image/summary generation with OpenAPI integration.
+A web application for managing and cataloging book records, designed as a tech challenge project of 7 days with essential CRUD operations and image/summary generation with OpenAPI integration.
 
 ## Description
 
