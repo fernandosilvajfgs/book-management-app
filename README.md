@@ -27,7 +27,7 @@ BookNest is a full-stack web application designed to manage book records. It all
 
 ## Getting Started
 
-## Importante
+## Important
 
 Use this admin credentials to login as an admin user:
 
@@ -42,6 +42,16 @@ Make sure you have the following installed on your machine:
 - npm (comes with Node.js)
 - PostgreSQL 17 (for database management)
 
+### Database setup
+
+- Start PostgreSQL server with the properties provided in the .env file or adapt the .env file accordingly
+- Create a database with the name provided in the .env file or modify the .env file accordingly
+- Run a query in the database with the script in the txt file provided in the main folder of the project in order to create the table needed
+
+### Deploy with deploy.bat
+
+The easiest way to deploy the project after having all the prerequisites and have the database set up is to double click the executable script deploy.bat. This will install all the dependencies for both frontend and backend and run them. If you prefer to do it manually, follow the steps below.
+  
 ### Installing
 
 - Download the zip file and extract it to a folder of your choice
@@ -49,13 +59,6 @@ Make sure you have the following installed on your machine:
 - If it is not already there, move the provided .env file inside the backend root directory
 - Navigate to the backend directory and install the dependencies with npm install
 - Navigate into the frontend directory and install the dependencies with npm install
-- Start PostgreSQL server with the properties provided in the .env file or adapt the .env file accordingly
-- Create a database with the name provided in the .env file or modify the .env file accordingly
-- Run a query in the database with the script in the txt file provided in the main folder of the project in order to create the table needed
-
-### Deploy with deploy.bat
-
-The easiest way to deploy the project after having all the prerequisites and have the database set up is to double click the executable scrip deploy.bat. This will install all the dependencies for both frontend and backend and run them.
 
 ### Executing program
 
